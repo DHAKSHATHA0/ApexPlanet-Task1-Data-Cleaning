@@ -160,11 +160,7 @@ Through this task, I am developing practical skills in:
 -   Python-based data wrangling
 -   Reproducible data-cleaning workflows
 
-## Author
 
-**Dhakshatha Selvaraj**
-
-Data Analytics Intern --- ApexPlanet
 
 ------------------------------------------------------------------------
 
