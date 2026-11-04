@@ -1,0 +1,13 @@
+Column_Name,Description,Data_Type,Cleaning_Notes
+Order_ID,Identifier assigned to an order; repeated values detected,String,Repeated ORD100050 documented; not corrected
+Order_Date,Date on which the order was recorded,Datetime,Converted to datetime
+Customer_ID,Identifier of the customer,String,No changes made
+Customer_Name,Name of the customer,String,No changes made
+Age,Age of the customer,Float,20 missing values filled with the median
+Gender,Gender recorded for the customer,String,Leading/trailing spaces removed
+City,City associated with the customer,String,13 missing values replaced with Unknown
+Product,Name of the purchased product,String,Leading/trailing spaces removed
+Category,Category to which the product belongs,String,Leading/trailing spaces removed
+Quantity,Number of units purchased,Integer,No invalid values found in range check
+Unit_Price,Price per unit of the product,Float,No invalid values found in range check
+Total_Sales,Total sales amount for the order,Float,Validated against Quantity multiplied by Unit_Price
